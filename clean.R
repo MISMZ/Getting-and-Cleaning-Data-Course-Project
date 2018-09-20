@@ -46,8 +46,8 @@ clean_data <- clean_data %>% mutate(
 
 ## Calculate mean and sd by activity
 mean_by_activity <- clean_data %>% group_by(Activity) %>% summarise_at(vars(-Subject,-Activity,-Dataset),mean)
-## sd_by_activity <- clean_data %>% group_by(Activity) %>% summarise_at(vars(-Subject,-Activity,-Dataset),sd)
+sd_by_activity <- clean_data %>% group_by(Activity) %>% summarise_at(vars(-Subject,-Activity,-Dataset),sd)
 
 ## Calculate mean and sd by subject
 mean_by_subject <- clean_data %>% group_by(Subject) %>% summarise_at(vars(-Subject,-Activity,-Dataset),mean)
-## sd_by_subject <- clean_data %>% group_by(Subject) %>% summarise_at(vars(-Subject,-Activity,-Dataset),sd)
+sd_by_subject <- clean_data %>% group_by(Subject) %>% summarise_at(vars(-Subject,-Activity,-Dataset),sd)
