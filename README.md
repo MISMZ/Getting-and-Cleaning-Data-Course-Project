@@ -17,8 +17,8 @@ Finally, execute R source code to generate tidy data file.
 
 The variables in the data X are sensor signals measured with waist-mounted smartphone from 30 subjects. The variable in the data Y indicates activity type the subjects performed during recording.
 
-# Script Output
-# The code was written based on the instruction of this assignment
+# R code description
+## The code was written based on the instruction of this assignment
 The R code does the following:
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -26,7 +26,7 @@ The R code does the following:
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-# The script has 3 .csv outputs:
+## The script has 3 .csv outputs:
 
 tidy_data.csv: data set containing both train and test data which only includes mesurement on the mean and standard deviation with descriptive activity name and label with descriptive variable name. 
 
