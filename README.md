@@ -10,6 +10,7 @@ The purpose of this project is to demonstrate my ability to collect, work with, 
 
 First, download and unzip the data file into your R working directory.
 Data for the project is located at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 Second, download the R source code into your R working directory.
 Finally, execute R source code to generate tidy data file.
 
