@@ -31,13 +31,11 @@ The R code does the following:
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## The script has 3 .csv outputs:
+## The script has 2 .csv outputs:
 
 tidy_data.csv: data set containing both train and test data which only includes mesurement on the mean and standard deviation with descriptive activity name and label with descriptive variable name. 
 
-tidy_data_by_activity.csv: tidy data set calculate mean by activity for each variable.
-
-tidy_data_by_subject.csv: tidy data set calculate mean by subject for each variable.
+tidy_data2.csv: tidy data set calculate mean by each activity and each user for each variable.
 
 # Packages used for the code
-tidyverse (dplyr, readr)
+tidyverse
