@@ -48,8 +48,12 @@ tidy_data <- tidy_data %>% mutate(
 tidy_data %>% write.csv(., file = "tidy_data.csv")
 
 ## Mean by activity and user and write .csv output
-mean_by_activity_subject <- tidy_data %>% group_by(Activity, Subject) %>% summarise_at(vars(-Subject,-Activity,-Dataset),mean) %>% write.csv(., file = "tidy_data2.csv")
+mean_by_activity_subject <- tidy_data %>% group_by(Activity, Subject) %>% summarise_at(vars(-Subject,-Activity,-Dataset),mean)
 
+## write .csv output
+write.csv(mean_by_activity_subject, file = "tidy_data2.csv")
 
+## Write txt output
+write.table(mean_by_activity_subject, file = "tidy_data2.txt", row.names = FALSE)
 
 
