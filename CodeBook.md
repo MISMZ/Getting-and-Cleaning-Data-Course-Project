@@ -10,9 +10,7 @@ Activity is in character format describing the type of activity
 
 All mean and standard deviation measurement is in number format.
 
-## The tidy data by activity (tidy_data_by_activity.csv) contains 6 rows (averaged based on activity) and 87 columns (86 variables and activity labels).
-
-## The tidy data by subject (tidy_data_by_subject.csv) contains 30 rows (averaged based on subject) and 87 columns (86 variables and subject labels).
+## The tidy data 2 output (tidy_data2.csv) contains 180 rows (by activity and user) and 88 columns (86 variables plus activity and user labels).
 
 ## There are 6 types of Activity listed below.
 1.WALKING
